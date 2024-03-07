@@ -12,6 +12,7 @@ public class DataBinding
 	ObjectMapper mapper = new ObjectMapper();
 	DataBinding objData; 
 		
+	//this is code to read a Json file 
 	void readData() throws JsonMappingException, JsonProcessingException
 	{
 		objData = mapper.readValue(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.json", DataBinding.class);
