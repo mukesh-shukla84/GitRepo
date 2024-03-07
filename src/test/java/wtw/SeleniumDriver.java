@@ -34,7 +34,8 @@ public class SeleniumDriver extends BaseTest
 	public void TestMethod5()
 	{
 		System.out.println("After Suite");
-		System.out.println("After Suite");
+		System.out.println("One More After Suite");
+		System.out.println("One More After Suite");
 	}
 	
 	
